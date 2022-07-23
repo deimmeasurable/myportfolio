@@ -1,6 +1,8 @@
 import React from 'react'
 
 const Contact = () => {
+
+
   return (
     <div name='contact' className='w-full h-150 bg-blue-900 text-white'>
       <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'>
@@ -16,7 +18,7 @@ const Contact = () => {
         className='flex flex-col w-full md:w-1/2'>
             <input
             type='text'
-            name='name'
+            name='fullName'
             placeholder='Enter your name'
             className='p-2 bg-transparent border-2 rounded-md
             text-white focus:outline-none'
@@ -35,7 +37,7 @@ const Contact = () => {
             className='p-2 bg-transparent border-2 rounded-md
             text-white focus:outline-none'
             ></textarea>
-
+            
             <button className='text-blue-900 bg-white px-6 py-3 my-8 mx-auto flex
             items-center rounded-md hover:scale-110 duration-300'>Send</button>
         </form>
