@@ -13,7 +13,7 @@ const SocialLinks = () => {
                 LinkedIn <FaLinkedin size={30}/>
                 </>
             ),
-            href: 'https://linkedin.com/in/shola-azeez/',
+            href: 'https://www.linkedin.com/in/seun-joshua/',
             style: 'rounded-tr-md'
         },
         {
@@ -23,7 +23,7 @@ const SocialLinks = () => {
                 GitHub <FaGithub size={30}/>
                 </>
             ),
-            href: 'https://github.com/sholz1805',
+            href: 'https://github.com/deimmeasurable',
         },
         {
             id:3,
@@ -32,7 +32,7 @@ const SocialLinks = () => {
                 Mail  <HiOutlineMail size={30}/>
                 </>
             ),
-            href: 'mailto: sholaaz1805@gmail.com',    
+            href: 'mailto: sseun976@gmail.com',    
         },
         {
             id:4,
@@ -41,7 +41,7 @@ const SocialLinks = () => {
                 Resume <BsFillPersonLinesFill size={30}/>
                 </>
             ),
-            href: '/Shola Azeez CV.pdf',
+            href: '/Joshua Seun Aramide(3).pdf',
             style: 'rounded-br-md',
             download: true,
         },
@@ -56,7 +56,7 @@ const SocialLinks = () => {
                  + " " + style}>
                      <a href={href}
                      className='flex justify-between items-center w-full
-                     text-blue-900'
+                     text-black-900'
                         download={download}
                         target='_blank'
                         rel='noreferrer'
