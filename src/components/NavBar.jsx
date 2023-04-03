@@ -28,7 +28,7 @@ const NavBar = () => {
     <div className='flex justify-between items-center w-full h-20
     px-4 text-white bg-red-900 fixed'>
         <div>
-            <h1 className='text-4xl ml-2'>Joshua Seun</h1>
+            <h1 className='text-4xl ml-2'>Joshua Seun Aramide</h1>
         </div> 
         
         <ul className='hidden md:flex'>
